@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: C CMJ, C CMJ, LIC=PE7DL-0TAK3-QD3KD-8DGJN-4GU93-9G7M6
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.29.0.0
+Toolchain Path:  D:\Stm32\kile5\core\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
+ 
+<h2>Project:</h2>
+d:\111Game\bai\Smart_Home\project\stm32f103.uvprojx
+Project File Date:  08/17/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Stm32\kile5\core\ARM\ARMCC\Bin'
+Build target 'STM32F103'
+compiling main.c...
+.\OLED\oled.h(65): warning:  #1295-D: Deprecated declaration Picture - give arg types
+  void Picture();
+.\OLED\oled.h(66): warning:  #1295-D: Deprecated declaration IIC_Start - give arg types
+  void IIC_Start();
+.\OLED\oled.h(67): warning:  #1295-D: Deprecated declaration IIC_Stop - give arg types
+  void IIC_Stop();
+.\OLED\oled.h(72): warning:  #1295-D: Deprecated declaration IIC_Wait_Ack - give arg types
+  void IIC_Wait_Ack();
+user\main.c(200): warning:  #223-D: function "sprintf" declared implicitly
+  	sprintf(buf, "%2d", temp);
+user\main.c(201): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  	OLED_ShowString(54,0,buf,16); //æ¸©åº¦å€?
+user\main.c(204): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  	OLED_ShowString(54,3,buf,16); //æ¹¿åº¦å€?
+user\main.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=39174 RO-data=3494 RW-data=708 ZI-data=3236  
+FromELF: creating hex file...
+".\output\stm32f103.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.1.0.5.pack
+                Keil.STM32F1xx_DFP.1.0.5
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_STM32F103
+  D:\Stm32\kile5\pack\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+  D:\Stm32\kile5\pack\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

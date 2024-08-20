@@ -1,0 +1,15 @@
+板子：
+stm32F103C8T6
+
+模块：
+温湿度传感器dht11
+WIFI模块esp8266
+OLED
+
+其他：
+ST-LINK V2 (烧录)
+CH340 （USB-TTL）
+
+具体：
+stm32f103+ESP8266/Onenet+Uniapp
+
